@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #9984e8;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.nav__list {
+  border: solid 1px;
+  border-color: default;
+  color: black;
+  padding: 15px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#Logonav {
+  align-self: left;
+}
+
+h1 {
+  font-family: "Quicksand";
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+}
+
+h2 {
+  font-family: "Quicksand";
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  color: aliceblue;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+}
+
+.body__seccion1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.body__seccion1__p {
+  width: 500px;
+  height: 230px;
+  text-align: justify;
+  display: inline-block;
+  font-family: "Cabin";
+  font-size: large;
+}
+
+.body__seccion1__img {
+  text-align: justify;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  left: 50px;
+  top: 50px;
+}
+
+.body__seccion2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body__seccion2__p {
+  width: 500px;
+  height: 230px;
+  left: 750px;
+  top: 200px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Cabin";
+  font-size: large;
+}
+
+.body__seccion2__list {
+  align-self: center;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Cabin";
+  font-size: large;
+}
+
+.body__seccion2__listitem {
+  padding: 10px;
+  margin: 5px;
+  text-align: justify;
+  width: 300px;
+  height: 30px;
+}
+
+.body__seccion3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+}
+
+.body__seccion3__article {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: justify;
+  border: solid black;
+  background-color: #75e5ab;
+}
+
+.body__form {
+  font-family: "Cabin";
+  text-align: justify;
+  width: 500px;
+  height: 250px;
+  left: 200px;
+  top: 100px;
+  border: solid black;
+  text-align: justify;
+  background-color: #75e5ab;
+}
+
+footer {
+  text-align: center;
+  background-color: #5cb3db;
+  padding: 10px;
+  font-family: "Quicksand";
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tsuru</title>
+    <link rel="stylesheet" href="css/style.Css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="Logonav"><img src="imagenes/Logo Tsuku.png" alt="Logo" /></div>
+        <ul class="nav__container">
+          <il class="nav__list"><a href="index.html">Inicio</a></il>
+          <il class="nav__list"><a href="carta.html">Carta</a></il>
+          <il class="nav__list"><a href="articulos.html">Articulos</a></il>
+          <il class="nav__list"><a href="sucursales.html">Sucursales</a></il>
+          <il class="nav__list">Contacto</il>
+        </ul>
+      </nav>
+    </header>
+    <h1>Contacto</h1>
+    <p>
+      Ante Cualquier duda, consulta o reclamo no dudes en comunicarte con
+      nosotros
+    </p>
+    <form class="body__form">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" />
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido" />
+      <div></div>
+      <label for="Numerotel">Numero de Telefono</label>
+      <input type="number" name="numerotel" id="numerotel" />
+      <div></div>
+      Hombre
+      <input type="radio" name="sexo" id="sexo" value="hombre" />
+      Mujer
+      <input type="radio" name="sexo" id="sexo" value="mujer" />
+      Otro
+      <input type="radio" name="sexo" id="sexo" value="otro" />
+      <div></div>
+      <textarea name="Mensaje">Inserte su consulta o duda aqui</textarea>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpiar" />
+    </form>
+    <div class="body__seccion1">
+      <p class="body__seccion1__p">
+        Tambien podes usar otras vias de contacto como nuestro numero de
+        telefono o via Whatsapp.
+      </p>
+      <img class="body__seccion1__img" src="imagenes/Logo llamada.png" />
+      <p class="body__seccion1__p">351 504-3295</p>
+      <img class="body__seccion1__img" src="imagenes/whatsapp.svg" />
+      <p class="body__seccion1__p">Nuestro Whatsapp</p>
+    </div>
+    <footer>
+      <p>Copyright 2022 Esteban Paredes</p>
+    </footer>
+  </body>
+</html>
