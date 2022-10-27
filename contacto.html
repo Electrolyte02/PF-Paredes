@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tsuru</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.Css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,55 +24,106 @@
     />
   </head>
   <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <div class="wrapper">
       <header>
         <nav>
-          <div id="Logonav">
-            <img src="imagenes/LogoTsuru.png" alt="Logo" />
+          <div class="navbar-header" id="Logonav">
+            <img src="Imagenes/LogoTsuru.png" />
           </div>
-          <ul class="nav__container">
-            <il class="nav__list"><a href="index.html">Inicio</a></il>
-            <il class="nav__list"><a href="carta.html">Carta</a></il>
-            <il class="nav__list"><a href="articulos.html">Articulos</a></il>
-            <il class="nav__list"><a href="sucursales.html">Sucursales</a></il>
-            <il class="nav__list">Contacto</il>
+          <ul>
+            <il class="nav__list nav-item"><a href="index.html">Inicio</a></il>
+            <il class="nav__list nav-item"><a href="carta.html">Carta</a></il>
+            <il class="nav__list nav-item"
+              ><a href="articulos.html">Articulos</a></il
+            >
+            <il class="nav__list nav-item"
+              ><a href="sucursales.html">Sucursales</a></il
+            >
+            <il class="nav__list nav-item">Contacto</il>
           </ul>
         </nav>
       </header>
       <h1>Contacto</h1>
-      <p>
-        Ante Cualquier duda, consulta o reclamo no dudes en comunicarte con
-        nosotros
-      </p>
       <form class="body__form">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="apellido" />
-        <div></div>
-        <label for="Numerotel">Numero de Telefono</label>
-        <input type="number" name="numerotel" id="numerotel" />
-        <div></div>
-        Hombre
-        <input type="radio" name="sexo" id="sexo" value="hombre" />
-        Mujer
-        <input type="radio" name="sexo" id="sexo" value="mujer" />
-        Otro
-        <input type="radio" name="sexo" id="sexo" value="otro" />
-        <div></div>
-        <textarea name="Mensaje">Inserte su consulta o duda aqui</textarea>
+        <p>
+          Ante Cualquier duda, consulta o reclamo introduzca sus datos y uno de
+          nuestros representantes de atencion al cliente se pondra en contacto
+          con Ud.
+        </p>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" />
+          <label for="apellido">Apellido</label>
+          <input
+            type="text"
+            class="form-control"
+            name="apellido"
+            id="apellido"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Numerotel">Numero de Telefono</label>
+          <input
+            type="number"
+            class="form-control"
+            name="numerotel"
+            id="numerotel"
+          />
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sexo"
+              id="sexo"
+              value="Hombre"
+              checked
+            />
+            <label class="form-check-label" for="sexo"> Hombre </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sexo"
+              id="sexo"
+              value="Mujer"
+              checked
+            />
+            <label class="form-check-label" for="sexo">Mujer </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sexo"
+              id="sexo"
+              value="Otro"
+              checked
+            />
+            <label class="form-check-label" for="sexo"> Otro </label>
+          </div>
+        </div>
         <input type="submit" value="Enviar" />
         <input type="reset" value="Limpiar" />
       </form>
       <div class="body__seccion1">
-        <p class="body__seccion1__p">
-          Tambien podes usar otras vias de contacto como nuestro numero de
-          telefono o via Whatsapp.
-        </p>
+        <div class="body__seccion1__p">
+          <h6>Tambien podes contactarnos via Whatsapp.</h6>
+          <h6>
+            Whatsapp:<a class="btn" href="#"
+              >Haz Click aqui para ir a nuestro Whatsapp automaticamente</a
+            >
+          </h6>
+        </div>
       </div>
-      <footer>
-        <p>Copyright 2022 Esteban Paredes</p>
-      </footer>
+      <footer>Copyright 2022 Esteban Paredes</footer>
     </div>
   </body>
 </html>
