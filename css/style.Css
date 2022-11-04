@@ -133,7 +133,8 @@ footer p {
   justify-content: space-around;
   font-family: "Cabin";
 }
-.body__seccion2__list li {
+
+.body__seccion2__listitem {
   padding: 0.625 em;
   text-align: justify;
   width: 18.75em;
