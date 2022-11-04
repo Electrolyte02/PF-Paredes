@@ -1,0 +1,29 @@
+.body__seccion3 {
+  article {
+    margin: 1.25em;
+    padding: 1.25em;
+    width: 30em;
+    height: 45em;
+    text-align: justify;
+    border: solid black;
+    background-color: $verde;
+    img {
+      max-width: 70%;
+      align-self: center;
+    }
+  }
+}
+
+.btn_article {
+  background-color: $violeta;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .body__seccion3 {
+    article {
+      width: 18em;
+      height: 28em;
+    }
+  }
+}
