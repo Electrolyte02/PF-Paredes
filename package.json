@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final-p1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Somos Tsuru una empresa cordobesa dedicada a la venta Delivery o Take-Out de comida ademas de vender articulos importados de Japon",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Electrolyte02/Pre-Entrega2-Paredes.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Esteban Paredes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Electrolyte02/Pre-Entrega2-Paredes/issues"
