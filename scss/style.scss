@@ -1,0 +1,19 @@
+$violeta: #9984e8;
+$azul: #5cb3db;
+$verde: #75e5ab;
+$gris: #b0c4de;
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@import "general";
+@import "inicio";
+@import "carta";
+@import "articulos";
+@import "contacto";
+@import "sucursales";

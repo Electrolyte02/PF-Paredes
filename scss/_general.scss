@@ -1,0 +1,83 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-size: 10px;
+  background-color: $azul;
+  overflow-x: hidden;
+}
+
+nav {
+  background-image: linear-gradient(to left, $violeta, $verde);
+  padding: 1rem;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid black 1px;
+  ul {
+    border: solid 2px;
+    color: black;
+    padding: 0.7em;
+    font-family: "Quicksand";
+    font-weight: bold;
+  }
+}
+
+.nav__animation {
+  transition: 1seg;
+  &:hover {
+    color: antiquewhite;
+  }
+}
+
+h1 {
+  font-family: "Quicksand";
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-family: "Quicksand";
+  font-weight: bold;
+  text-align: center;
+  margin: 1.2em;
+}
+
+footer {
+  text-align: center;
+  background-color: $violeta;
+  padding: 0.7em;
+  font-family: "Quicksand";
+  border-top: solid black 1px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  a {
+    transition: 1seg;
+    &:hover {
+      color: antiquewhite;
+    }
+    img {
+      margin: 1em;
+      width: 2em;
+      height: 2em;
+    }
+  }
+  p {
+    margin: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(1fr auto);
+    row-gap: 1em;
+    font-size: 18px;
+  }
+}
