@@ -1,0 +1,32 @@
+.body__seccion5 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  iframe {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 3em;
+  }
+  div {
+    width: 35em;
+    height: 15em;
+    margin: 2em;
+    text-align: center;
+    font-family: "Cabin";
+    border: solid black 2px;
+    background-color: $gris;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .body__seccion5 {
+    flex-direction: row;
+    iframe {
+      margin-left: 3em;
+      width: 30em;
+      height: 18em;
+    }
+  }
+}
