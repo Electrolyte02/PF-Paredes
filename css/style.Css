@@ -122,7 +122,8 @@ footer p {
   flex-direction: column;
   justify-content: space-around;
 }
-.body__seccion2 ul {
+
+.body__seccion2__list {
   align-self: center;
   width: 18.95 em;
   height: 9.5 em;
@@ -132,7 +133,7 @@ footer p {
   justify-content: space-around;
   font-family: "Cabin";
 }
-.body__seccion2 ul li {
+.body__seccion2__list li {
   padding: 0.625 em;
   text-align: justify;
   width: 18.75em;
@@ -143,7 +144,7 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  .body__seccion2 {
+  .body__seccion2__list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
