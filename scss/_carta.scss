@@ -23,11 +23,12 @@
     margin: 1rem;
     border: 1px solid black;
     background-color: $gris;
-    img {
-      max-width: 70%;
-      max-height: 70%;
-      align-self: center;
-    }
+  }
+
+  img {
+    max-width: 70%;
+    max-height: 70%;
+    align-self: center;
   }
 }
 
