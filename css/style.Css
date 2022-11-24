@@ -135,7 +135,7 @@ footer p {
 }
 .body__seccion2__list li {
   padding: 0.625 em;
-  text-align: justify;
+  text-align: center;
   display: flex;
   flex-direction: column;
   width: 30em;
