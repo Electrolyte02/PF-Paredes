@@ -24,12 +24,12 @@
     border: 1px solid black;
     background-color: $gris;
   }
+}
 
-  img {
-    max-width: 70%;
-    max-height: 70%;
-    align-self: center;
-  }
+.body__seccion2__img {
+  max-width: 70%;
+  max-height: 70%;
+  align-self: center;
 }
 
 @media (min-width: 768px) {
